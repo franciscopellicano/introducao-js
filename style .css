@@ -1,0 +1,52 @@
+
+body{
+    background-color: #f0f0f0;
+    text-align: center;
+
+}
+.bod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+h1{
+    color: #333;
+}
+.galeria img{
+    width: 300px;
+    height: 200px;
+    border: 5px solid #333;
+    margin: 20px 0;
+    box-shadow: 10px 10px 2px pink ;
+}
+.botoes button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.botoes button:hover{
+    background: #666;
+}
+#botao1{
+    background-color: aqua;
+}
+#botao2{
+    background-color: palegoldenrod;
+}
+#botao3{
+    background-color: palegreen;
+}
+#botao4{
+    background-color: palevioletred;
+}
+#botao5{
+    background-color: peru;
+}
+#botao6{
+    background-color: firebrick;
+}
